@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_YC-PoD55EfCQyo3FLKmc4w" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_YC-PoT55EfCQyo3FLKmc4w" comment="" name="serverName" prompt="serverName?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_sMVG8D7vEfCn0IJeBsd5Eg" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="vente_db"/>
+  <contextParameter xmi:id="_sMVG8T7vEfCn0IJeBsd5Eg" comment="" name="port" prompt="port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_sMVG8j7vEfCn0IJeBsd5Eg" comment="" name="schema_dwh" prompt="schema_dwh?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="VENTE_DWH"/>
+  <contextParameter xmi:id="_sMVG8z7vEfCn0IJeBsd5Eg" comment="" name="utilisateur" prompt="utilisateur?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_sMVG9D7vEfCn0IJeBsd5Eg" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:cYhbBqCfjYeLBdPDYwScXrGvgD5Wp5y2PYj0+scCQsOJinZ4"/>
+  <contextParameter xmi:id="_sMVG9T7vEfCn0IJeBsd5Eg" comment="" name="additionalParam" prompt="additionalParam?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+</talendfile:ContextType>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_eII2oD7zEfCn0IJeBsd5Eg" name="PARAMS_LOG" id="_JgW6UD7zEfCn0IJeBsd5Eg" label="PARAMS_LOG" dataPackage="_eJzDgD7zEfCn0IJeBsd5Eg" ContextId="" contextName="Default" DatabaseType="PostgreSQL" DriverJarPath="" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/vente_db?" dbVersionString="V9_X" Port="5432" Username="postgres" Password="enc:system.encryption.key.v1:nXC0R+plmoGya8Z39gARXk1kPdJH/Cx6AfC0krUDgCHusupX" ServerName="localhost" DatasourceName="" FileFieldName="" SID="vente_db" SqlSynthax="" StringQuote="" NullChar="" DbmsId="postgres_id" ProductId="POSTGRESQL" DBRootPath="" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="PARAMS_LOG">
+    <taggedValue xmi:id="_eII2oT7zEfCn0IJeBsd5Eg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_eIjGUD7zEfCn0IJeBsd5Eg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_eIjGUT7zEfCn0IJeBsd5Eg" tag="Status" value=""/>
+    <taggedValue xmi:id="_eIjGUj7zEfCn0IJeBsd5Eg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_eIjGUz7zEfCn0IJeBsd5Eg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_eIjGVD7zEfCn0IJeBsd5Eg" tag="Description" value=""/>
+    <taggedValue xmi:id="_eIjGVT7zEfCn0IJeBsd5Eg" tag="Author" value=""/>
+    <taggedValue xmi:id="_eIjGVj7zEfCn0IJeBsd5Eg" tag="otherParameter"/>
+    <taggedValue xmi:id="_eJI8MD7zEfCn0IJeBsd5Eg" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_eJI8MT7zEfCn0IJeBsd5Eg" tag="DB ProductVersion" value="17.0"/>
+    <taggedValue xmi:id="_eJI8Mj7zEfCn0IJeBsd5Eg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_eII2oj7zEfCn0IJeBsd5Eg" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_eJzDgD7zEfCn0IJeBsd5Eg" name="vente_db" dataManager="_eII2oD7zEfCn0IJeBsd5Eg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_eJzDgT7zEfCn0IJeBsd5Eg" name="PARAMS_LOG">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_qBC-UD7zEfCn0IJeBsd5Eg" name="CONTEXTE" id="_qBBwMD7zEfCn0IJeBsd5Eg" label="CONTEXTE" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_qBC-UT7zEfCn0IJeBsd5Eg" name="key" label="key" length="100" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+          <taggedValue xmi:id="_qBC-Uj7zEfCn0IJeBsd5Eg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_qBC-Uz7zEfCn0IJeBsd5Eg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_qBC-VD7zEfCn0IJeBsd5Eg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_qBC-VT7zEfCn0IJeBsd5Eg" name="value" label="value" length="255" sourceType="VARCHAR" talendType="id_String">
+          <taggedValue xmi:id="_qBC-Vj7zEfCn0IJeBsd5Eg" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_qBC-Vz7zEfCn0IJeBsd5Eg" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_qBC-WD7zEfCn0IJeBsd5Eg" name="VARCHAR" numericPrecisionRadix="10" javaDataType="12" nullable="columnNullable"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

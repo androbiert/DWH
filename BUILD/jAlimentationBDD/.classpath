@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="idwhclient_0_1.jar"/>
+	<classpathentry kind="lib" path="jalimentationbdd_0_1.jar"/>
+	<classpathentry kind="lib" path="jchargedwh_0_1.jar"/>
+	<classpathentry kind="lib" path="jchargeods_0_1.jar"/>
+	<classpathentry kind="lib" path="jdwhproduit_0_1.jar"/>
+	<classpathentry kind="lib" path="jdwhvente_0_1.jar"/>
+	<classpathentry kind="lib" path="jodscategorie_0_1.jar"/>
+	<classpathentry kind="lib" path="jodsclient_0_1.jar"/>
+	<classpathentry kind="lib" path="jodsproduit_0_1.jar"/>
+	<classpathentry kind="lib" path="jodssouscategorie_0_1.jar"/>
+	<classpathentry kind="lib" path="jodsvente_0_1.jar"/>
+	<classpathentry kind="lib" path="odstypeclient_0_1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
